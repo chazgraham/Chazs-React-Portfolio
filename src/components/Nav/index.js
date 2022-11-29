@@ -22,22 +22,16 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className={`mx-2 ${AboutMeSelected && 'navActive'}`}>
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(true), setResumeSelected(false))}>
-              About me
-            </a>
+            <span onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(true), setResumeSelected(false))}>About me</span>
           </li>
           <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false, setPortfolioSelected(true), setAboutMeSelected(false), setResumeSelected(false))}>
-              Portfolio
-            </a>
+            <span onClick={() => setContactSelected(false, setPortfolioSelected(true), setAboutMeSelected(false), setResumeSelected(false))}>Portfolio</span>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true, setPortfolioSelected(false), setAboutMeSelected(false),setResumeSelected(false))}>Contact</span>
           </li>
           <li className={`mx-2 ${ResumeSelected && 'navActive'}`}>
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(false), setResumeSelected(true))}>
-              Resume
-            </a>
+            <span onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(false), setResumeSelected(true))}>Resume</span>
             </li>
         </ul>
       </nav>

@@ -1,37 +1,42 @@
-import React, { useState } from "react";
+import React from 'react'
+
+import photo0 from '../../assets/projectImg/0.jpg';
+import photo1 from '../../assets/projectImg/1.jpg';
+import photo2 from '../../assets/projectImg/2.jpg';
 
 function Portfolio() {
-
-    const [photos] = useState([
-        {
-          name: 'Grocery aisle',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Grocery booth',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Building exterior',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-    ]);
   return (
-    <div>
-      <div className="flex-row">
-        {photos.map((image, i) => (
-          <img
-            src={require(`../../assets/projectImg/${i}.jpg`)}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            key={image.name}
-          />
-        ))}
+    <div className="flex-row">
+      <div className='image'>
+        <img className="img-thumbnail" src={photo0} alt="Music Playlist"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://chazgraham.github.io/Music--Playlist/" >Music Playlist</a>
+            <a href= "https://github.com/chazgraham" >GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div className='image'>
+        <img className="img-thumbnail" src={photo1} alt="The Collective"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://social-collective-app.herokuapp.com/" >The Collective</a>
+            <a href= "https://github.com/chazgraham" >GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div className='image'>
+        <img className="img-thumbnail" src={photo2} alt="Run Buddy"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://chazgraham.github.io/Run-Buddy/" >Run Buddy</a>
+            <a href= "https://github.com/chazgraham" >GitHub</a>
+          </div>
+        </div>
       </div>
     </div>
-  );
+
+  )
 }
+
 export default Portfolio;
