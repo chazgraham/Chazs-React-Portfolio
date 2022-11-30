@@ -8,10 +8,10 @@ function Footer () {
                     <a href='https://github.com/chazgraham'>GitHub</a>
                 </li>
                 <li>
-                    <a href='/'>LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258'>LinkedIn</a>
                 </li>
                 <li>
-                    <a href='/'>Stack OverFlow</a>
+                    <a href='https://stackoverflow.com/users/19429367/chaz-graham'>Stack OverFlow</a>
                 </li>
             </ul>
         </footer>
