@@ -11,8 +11,9 @@ function Portfolio() {
         <img className="img-thumbnail" src={photo0} alt="Music Playlist"/>
         <div className="img__overlay">
           <div className="img_gitHub">
-            <a href= "https://chazgraham.github.io/Music--Playlist/" >Music Playlist</a>
-            <a href= "https://github.com/chazgraham" >GitHub</a>
+            <a href= "https://chazgraham.github.io/Music--Playlist/" >Music Playlist </a>
+            |
+            <a href= "https://github.com/chazgraham" > GitHub</a>
           </div>
         </div>
       </div>
@@ -20,8 +21,9 @@ function Portfolio() {
         <img className="img-thumbnail" src={photo1} alt="The Collective"/>
         <div className="img__overlay">
           <div className="img_gitHub">
-            <a href= "https://social-collective-app.herokuapp.com/" >The Collective</a>
-            <a href= "https://github.com/chazgraham" >GitHub</a>
+            <a href= "https://social-collective-app.herokuapp.com/" >The Collective </a>
+            |
+            <a href= "https://github.com/chazgraham" > GitHub</a>
           </div>
         </div>
       </div>
@@ -29,8 +31,9 @@ function Portfolio() {
         <img className="img-thumbnail" src={photo2} alt="Run Buddy"/>
         <div className="img__overlay">
           <div className="img_gitHub">
-            <a href= "https://chazgraham.github.io/Run-Buddy/" >Run Buddy</a>
-            <a href= "https://github.com/chazgraham" >GitHub</a>
+            <a href= "https://chazgraham.github.io/Run-Buddy/" >Run Buddy </a>
+            |
+            <a href= "https://github.com/chazgraham" > GitHub</a>
           </div>
         </div>
       </div>

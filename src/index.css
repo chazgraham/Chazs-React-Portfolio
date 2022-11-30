@@ -5,9 +5,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --dark-purple: #140F2Dff;
+  --rich-black-fogra-39: #01020Cff;
+  --lavender-blue: #CCC0EFff;
+  --magnolia: #F6F2FDff;
+  --midnight: #5F2F6Cff;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -34,10 +36,10 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
-  color: var(--light);
+  background: var(--dark-purple);
+  color: var(--lavender-blue);
   font-family: 'Poiret One', cursive;
-
+  
 }
 
 h1,
@@ -60,29 +62,13 @@ h2 {
   font-size: 3rem;
 }
 
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-
 p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 0;
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--lavender-blue);
   text-decoration: none;
   font-weight: bold;
 }
@@ -92,12 +78,20 @@ a:hover {
 }
 
 header {
-  padding: 80px 0px 0px 50px;
-  background: var(--dark);
+    display: flex;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-image: url(../src/assets/headerImg/heroImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header a {
-  color: var(--light);
+  color: var(--magnolia);
 }
 
 button {
@@ -121,14 +115,6 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  max-width: 100%;
-}
-
-span[role="img"] {
-  cursor: default;
-}
-
 form {
   width: 40%;
 }
@@ -145,6 +131,13 @@ input {
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+nav li {
+  font-size: 30px;
+  display: flex;
+  padding-right: 40px;
+  justify-content: space-between;
 }
 
 li {
@@ -187,58 +180,21 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
-
-.card {
-  width: 25%;
-  text-align: center;
-}
-
 .image {
   position: relative;
   width: 500px;
-  padding: 20px;
+  margin: 20px;
+  border: solid black;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
 .img-thumbnail {
+  min-width: 100%;
   width: 100%;
   display: block;
 }
@@ -250,12 +206,13 @@ textarea {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.25s;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
 
 .img__overlay > * {
@@ -272,7 +229,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: var(--primary-color);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -283,16 +240,6 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
-}
-
 .navActive {
-  color: var(--secondary);
+  color: var(--magnolia);
 }
