@@ -45,11 +45,15 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 p {
@@ -64,7 +68,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--midnight);
 }
 
 header {
@@ -72,7 +76,6 @@ header {
     padding: 40px 35px;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     background-image: url(../src/assets/headerImg/heroImg.jpg);
     background-size: cover;
@@ -221,6 +224,10 @@ button {
 
 .navActive {
   color: var(--magnolia);
+}
+
+.resume-li {
+  list-style: circle;
 }
 
 footer {

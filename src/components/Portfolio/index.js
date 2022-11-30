@@ -10,13 +10,14 @@ import photo5 from '../../assets/projectImg/5.jpg';
 function Portfolio() {
   return (
     <div className="flex-row">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
       <div className='image'>
         <img className="img-thumbnail" src={photo0} alt="Music Playlist"/>
         <div className="img__overlay">
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Music--Playlist/" >Music Playlist </a>
             |
-            <a href= "https://github.com/chazgraham/Music--Playlist" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Music--Playlist" >  <i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
       </div>
@@ -26,7 +27,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://social-collective-app.herokuapp.com/" >The Collective </a>
             |
-            <a href= "https://github.com/DXHASE/Collective-Social-App" > GitHub</a>
+            <a href= "https://github.com/DXHASE/Collective-Social-App" >  <i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
       </div>
@@ -36,7 +37,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Run-Buddy/" >Run Buddy </a>
             |
-            <a href= "https://github.com/chazgraham/Run-Buddy" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Run-Buddy" >  <i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
       </div>
@@ -46,7 +47,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Chazs-JavaScript-Knowledge-Test/" >JavaScript Test </a>
             |
-            <a href= "https://github.com/chazgraham/Chazs-JavaScript-Knowledge-Test" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Chazs-JavaScript-Knowledge-Test" >  <i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
       </div>
@@ -56,7 +57,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://chazs-note-taker.herokuapp.com/" >Note Taker </a>
             |
-            <a href= "https://github.com/chazgraham/Chazs-Note-Taker" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Chazs-Note-Taker" >  <i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
       </div>
@@ -66,7 +67,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Chazs-Random-Password-Generator/" >Random Pass-Gen </a>
             |
-            <a href= "https://github.com/chazgraham/Chazs-Random-Password-Generator" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Chazs-Random-Password-Generator" >  <i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
       </div>

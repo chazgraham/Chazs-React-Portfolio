@@ -3,15 +3,16 @@ import React from 'react';
 function Footer () {
     return (
         <footer>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
             <ul className='flex-row'>
                 <li>
-                    <a href='https://github.com/chazgraham'>GitHub</a>
+                    <a href='https://github.com/chazgraham'><i class="fa fa-github fa-4x"></i></a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258'>LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258'><i class="fa fa-linkedin-square fa-4x"></i></a>
                 </li>
                 <li>
-                    <a href='https://stackoverflow.com/users/19429367/chaz-graham'>Stack OverFlow</a>
+                    <a href='https://stackoverflow.com/users/19429367/chaz-graham'><i class="fa fa-stack-overflow fa-4x"></i></a>
                 </li>
             </ul>
         </footer>
