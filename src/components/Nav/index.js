@@ -13,24 +13,22 @@ function Nav(props) {
       } = props;
 
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
+    <header>
+      <h1>
           Chaz Graham
-        </a>
-      </h2>
+      </h1>
       <nav>
         <ul className="flex-row">
-          <li className={`mx-2 ${AboutMeSelected && 'navActive'}`}>
+          <li className={`${AboutMeSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(true), setResumeSelected(false))}>About me</span>
           </li>
-          <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
+          <li className={`${portfolioSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(false, setPortfolioSelected(true), setAboutMeSelected(false), setResumeSelected(false))}>Portfolio</span>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+          <li className={`${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true, setPortfolioSelected(false), setAboutMeSelected(false),setResumeSelected(false))}>Contact</span>
           </li>
-          <li className={`mx-2 ${ResumeSelected && 'navActive'}`}>
+          <li className={`${ResumeSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(false), setResumeSelected(true))}>Resume</span>
             </li>
         </ul>

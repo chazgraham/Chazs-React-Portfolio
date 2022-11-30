@@ -5,10 +5,11 @@ import Portfolio from './components/Portfolio'
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
 
-  const [AboutMeSelected, setAboutMeSelected] = useState(false);
+  const [AboutMeSelected, setAboutMeSelected] = useState(true);
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [ResumeSelected, setResumeSelected] = useState(false);

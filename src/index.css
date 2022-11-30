@@ -10,14 +10,6 @@ main {
   --lavender-blue: #CCC0EFff;
   --magnolia: #F6F2FDff;
   --midnight: #5F2F6Cff;
-  --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -39,15 +31,13 @@ body {
   background: var(--dark-purple);
   color: var(--lavender-blue);
   font-family: 'Poiret One', cursive;
-  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
@@ -55,11 +45,11 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.25rem;
 }
 
 p {
@@ -94,17 +84,6 @@ header a {
   color: var(--magnolia);
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
 
 button:hover {
   opacity: .8;
@@ -229,7 +208,7 @@ textarea {
 }
 
 button {
-	background: var(--primary-color);
+	background: var(--midnight);
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -243,3 +222,17 @@ button {
 .navActive {
   color: var(--magnolia);
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  margin-top: auto;
+}
+
+footer li {
+  padding: 0 20px 10px 0;
+}
+
+

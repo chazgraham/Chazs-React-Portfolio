@@ -3,7 +3,7 @@ import React from 'react';
 function Footer () {
     return (
         <footer>
-            <ul>
+            <ul className='flex-row'>
                 <li>
                     <a href='https://github.com/chazgraham'>GitHub</a>
                 </li>
