@@ -3,6 +3,9 @@ import React from 'react'
 import photo0 from '../../assets/projectImg/0.jpg';
 import photo1 from '../../assets/projectImg/1.jpg';
 import photo2 from '../../assets/projectImg/2.jpg';
+import photo3 from '../../assets/projectImg/3.jpg';
+import photo4 from '../../assets/projectImg/4.jpg';
+import photo5 from '../../assets/projectImg/5.jpg';
 
 function Portfolio() {
   return (
@@ -13,7 +16,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Music--Playlist/" >Music Playlist </a>
             |
-            <a href= "https://github.com/chazgraham" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Music--Playlist" > GitHub</a>
           </div>
         </div>
       </div>
@@ -23,7 +26,7 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://social-collective-app.herokuapp.com/" >The Collective </a>
             |
-            <a href= "https://github.com/chazgraham" > GitHub</a>
+            <a href= "https://github.com/DXHASE/Collective-Social-App" > GitHub</a>
           </div>
         </div>
       </div>
@@ -33,7 +36,37 @@ function Portfolio() {
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Run-Buddy/" >Run Buddy </a>
             |
-            <a href= "https://github.com/chazgraham" > GitHub</a>
+            <a href= "https://github.com/chazgraham/Run-Buddy" > GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div className='image'>
+        <img className="img-thumbnail" src={photo3} alt="JavaScript Test"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://chazgraham.github.io/Chazs-JavaScript-Knowledge-Test/" >JavaScript Test </a>
+            |
+            <a href= "https://github.com/chazgraham/Chazs-JavaScript-Knowledge-Test" > GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div className='image'>
+        <img className="img-thumbnail" src={photo4} alt="Note Taker"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://chazs-note-taker.herokuapp.com/" >Note Taker </a>
+            |
+            <a href= "https://github.com/chazgraham/Chazs-Note-Taker" > GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div className='image'>
+        <img className="img-thumbnail" src={photo5} alt="Random Password Generator"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://chazgraham.github.io/Chazs-Random-Password-Generator/" >Random Pass-Gen </a>
+            |
+            <a href= "https://github.com/chazgraham/Chazs-Random-Password-Generator" > GitHub</a>
           </div>
         </div>
       </div>
