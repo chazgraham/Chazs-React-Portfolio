@@ -230,6 +230,15 @@ button {
   list-style: circle;
 }
 
+.resume-btn {
+  background: none;
+  color: var(--lavender-blue);
+}
+
+.resume-btn:hover {
+  color: var(--midnight);
+}
+
 footer {
   display: flex;
   align-items: center;
