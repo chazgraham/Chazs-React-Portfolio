@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Nav(props) {
     const {
@@ -11,6 +11,19 @@ function Nav(props) {
         ResumeSelected,
         setResumeSelected
       } = props;
+
+      
+  useEffect(() => {
+    if(AboutMeSelected === true){
+      document.title = "About"
+    } else if (contactSelected === true){
+      document.title = "Contact"
+    } else if (portfolioSelected === true) {
+      document.title = "Portfolio"
+    } else if (ResumeSelected === true) {
+      document.title = "Resume"
+    }
+  });
 
   return (
     <header>
