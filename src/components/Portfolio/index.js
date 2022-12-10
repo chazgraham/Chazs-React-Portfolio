@@ -52,7 +52,7 @@ function Portfolio() {
         </div>
       </div>
       <div className='image'>
-        <img className="img-thumbnail" src={photo4} alt="Note Taker"/>
+        <img className="img-thumbnail" src={photo5} alt="Note Taker"/>
         <div className="img__overlay">
           <div className="img_gitHub">
             <a href= "https://chazs-note-taker.herokuapp.com/" >Note Taker </a>
@@ -62,7 +62,7 @@ function Portfolio() {
         </div>
       </div>
       <div className='image'>
-        <img className="img-thumbnail" src={photo5} alt="Random Password Generator"/>
+        <img className="img-thumbnail" src={photo4} alt="Random Password Generator"/>
         <div className="img__overlay">
           <div className="img_gitHub">
             <a href= "https://chazgraham.github.io/Chazs-Random-Password-Generator/" >Random Pass-Gen </a>
