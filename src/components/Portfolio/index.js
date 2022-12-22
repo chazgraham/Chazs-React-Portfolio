@@ -6,11 +6,23 @@ import photo2 from '../../assets/projectImg/2.jpg';
 import photo3 from '../../assets/projectImg/3.jpg';
 import photo4 from '../../assets/projectImg/4.jpg';
 import photo5 from '../../assets/projectImg/5.jpg';
+import gameseeker from '../../assets/projectImg/application-2.jpg'
 
 function Portfolio() {
   return (
     <div className="flex-row">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
+      <h2>Featured</h2>
+      <div className='image'>
+        <img className="img-thumbnail" src={gameseeker} alt="Game Seeker"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://game-seeker.herokuapp.com/" >Game Seeker </a>
+            |
+            <a href= "https://github.com/chazgraham/Game-Seeker" >  <i class="fa fa-github fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
       <div className='image'>
         <img className="img-thumbnail" src={photo0} alt="Music Playlist"/>
         <div className="img__overlay">
