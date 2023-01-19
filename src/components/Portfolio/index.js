@@ -11,7 +11,6 @@ import gameseeker from '../../assets/projectImg/application-2.jpg'
 function Portfolio() {
   return (
     <div className="flex-row">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
       <h2>Featured</h2>
       <div className='image'>
         <img className="img-thumbnail" src={gameseeker} alt="Game Seeker"/>

@@ -56,6 +56,10 @@ h3 {
   font-size: 2rem;
 }
 
+h4 {
+  font-size: 1.5rem;
+}
+
 p {
   font-size: 1.3rem;
   margin-top: 0;
@@ -140,6 +144,11 @@ textarea {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+}
+
+.email {
+  width: 900px;
+  margin: 50px 20px 0px 50px;
 }
 
 .container {

@@ -3,7 +3,6 @@ import React from 'react';
 function Footer () {
     return (
         <footer>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
             <ul className='flex-row'>
                 <li>
                     <a href='https://github.com/chazgraham'><i class="fa fa-github fa-4x"></i></a>
