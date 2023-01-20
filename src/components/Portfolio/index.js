@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -73,7 +74,7 @@ function Portfolio() {
 
   return (
     <>
-      <div className="flex-row">
+      <Container className="flex-row">
         {photos.map((image, i) => (
           <div className='project-card'>
             <h4>{image.name}</h4>
@@ -88,7 +89,7 @@ function Portfolio() {
             <button className="details-btn" onClick={() => getDetails(image)}>Details</button>
           </div>
         ))}
-      </div>
+      </Container>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header>
           <Modal.Title>{projectDetails.name}</Modal.Title>

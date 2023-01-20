@@ -1,9 +1,10 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 function Resume() {
 
   return (
-    <section>
+    <Container className='resume'>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
       <div>
       <h2>Resume</h2>
@@ -51,7 +52,7 @@ function Resume() {
           </li>
         </ul>
       </div>
-    </section>
+    </Container>
   );
 }
 export default Resume;
