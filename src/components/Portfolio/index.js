@@ -1,89 +1,110 @@
-import React from 'react'
-
-import photo0 from '../../assets/projectImg/0.jpg';
-import photo1 from '../../assets/projectImg/1.jpg';
-import photo2 from '../../assets/projectImg/2.jpg';
-import photo3 from '../../assets/projectImg/3.jpg';
-import photo4 from '../../assets/projectImg/4.jpg';
-import photo5 from '../../assets/projectImg/5.jpg';
-import gameseeker from '../../assets/projectImg/application-2.jpg'
+import React, { useState } from 'react'
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 function Portfolio() {
-  return (
-    <div className="flex-row">
-      <h2>Featured</h2>
-      <div className='image'>
-        <img className="img-thumbnail" src={gameseeker} alt="Game Seeker"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://game-seeker.herokuapp.com/" >Game Seeker </a>
-            |
-            <a href= "https://github.com/chazgraham/Game-Seeker" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className='image'>
-        <img className="img-thumbnail" src={photo0} alt="Music Playlist"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://chazgraham.github.io/Music--Playlist/" >Music Playlist </a>
-            |
-            <a href= "https://github.com/chazgraham/Music--Playlist" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className='image'>
-        <img className="img-thumbnail" src={photo1} alt="The Collective"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://social-collective-app.herokuapp.com/" >The Collective </a>
-            |
-            <a href= "https://github.com/DXHASE/Collective-Social-App" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className='image'>
-        <img className="img-thumbnail" src={photo2} alt="Run Buddy"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://chazgraham.github.io/Run-Buddy/" >Run Buddy </a>
-            |
-            <a href= "https://github.com/chazgraham/Run-Buddy" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className='image'>
-        <img className="img-thumbnail" src={photo3} alt="JavaScript Test"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://chazgraham.github.io/Chazs-JavaScript-Knowledge-Test/" >JavaScript Test </a>
-            |
-            <a href= "https://github.com/chazgraham/Chazs-JavaScript-Knowledge-Test" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className='image'>
-        <img className="img-thumbnail" src={photo5} alt="Note Taker"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://chazs-note-taker.herokuapp.com/" >Note Taker </a>
-            |
-            <a href= "https://github.com/chazgraham/Chazs-Note-Taker" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-      <div className='image'>
-        <img className="img-thumbnail" src={photo4} alt="Random Password Generator"/>
-        <div className="img__overlay">
-          <div className="img_gitHub">
-            <a href= "https://chazgraham.github.io/Chazs-Random-Password-Generator/" >Random Pass-Gen </a>
-            |
-            <a href= "https://github.com/chazgraham/Chazs-Random-Password-Generator" >  <i class="fa fa-github fa-2x"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
+  const [photos] = useState([
+    {
+      name: 'Game Seeker',
+      languages: ['java', 'test', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+    {
+      name: 'Music Playlist',
+      languages: ['java', 'test', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+    {
+      name: 'The Collective',
+      languages: ['java', 'test', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+    {
+      name: 'Run Buddy',
+      languages: ['java', 'test', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+    {
+      name: 'JavaScript Test',
+      languages: ['java', 'test', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+    {
+      name: 'Note Taker',
+      languages: ['java, ', 'test, ', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+    {
+      name: 'Random Password Generator',
+      languages: ['java', 'test', 'another'],
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      gitHub: 'https://github.com/chazgraham/Game-Seeker',
+      heroku: 'https://game-seeker.herokuapp.com/'
+    },
+  ]);
 
+  //handles detail model 
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const [projectDetails, setprojectDetail] = useState([])
+
+  const getDetails = (image) => {
+    const projectDetails = image
+    setprojectDetail(projectDetails)
+    handleShow()
+
+    console.log(image.name)
+    console.log(image.description)
+  }
+
+  return (
+    <>
+      <div className="flex-row">
+        {photos.map((image, i) => (
+          <div className='project-card'>
+            <h4>{image.name}</h4>
+            <div className='overlay-position'>
+              <img className="img-thumbnail" src={require(`../../assets/projectImg/${i}.jpg`)} alt={image.name} key={image.name}></img>
+              <div className='img__overlay'>
+                <a href={image.heroku} >See App! </a>
+                |
+                <a href={image.gitHub} >  <i class="fa fa-github fa-2x"></i></a>
+              </div>
+            </div>
+            <button className="details-btn" onClick={() => getDetails(image)}>Details</button>
+          </div>
+        ))}
+      </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header>
+          <Modal.Title>{projectDetails.name}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{projectDetails.description}</Modal.Body>
+        <Modal.Header>
+          <Modal.Title>Languages</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{projectDetails.languages}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
   )
 }
 
