@@ -7,52 +7,52 @@ function Portfolio() {
   const [photos] = useState([
     {
       name: 'Game Seeker',
-      languages: ['java', 'test', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      languages: ['React, ', 'JavaScript, ', 'Apollo, ', 'MongoDb, ', 'GraphQl, ', 'Express, ', 'Bcrypt' ],
+      description: 'The application allows users to track games they have played, are playing, and have completed. It also allows the user to make friends and view the same list on their profiles.',
       gitHub: 'https://github.com/chazgraham/Game-Seeker',
       heroku: 'https://game-seeker.herokuapp.com/'
     },
     {
       name: 'Music Playlist',
-      languages: ['java', 'test', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      gitHub: 'https://github.com/chazgraham/Game-Seeker',
-      heroku: 'https://game-seeker.herokuapp.com/'
+      languages: ['HTML, ', 'JavaScript, ', 'Bulma CSS'],
+      description: 'An application that allows the user to search for songs by their favorite artists.',
+      gitHub: 'https://github.com/chazgraham/Music--Playlist',
+      heroku: 'https://chazgraham.github.io/Music--Playlist/'
     },
     {
       name: 'The Collective',
-      languages: ['java', 'test', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      gitHub: 'https://github.com/chazgraham/Game-Seeker',
-      heroku: 'https://game-seeker.herokuapp.com/'
+      languages: ['JavaScript, ', 'Handlebars, ', 'Express, ', 'Sequelize, ', 'MySQL, ', 'Node.js'],
+      description: ' a social media platform that allows users to log in to an existing account or sign up for one if said user does not have an existing account. Once the user is logged in they will be able to view past posts by other users and visit their own profile via the nav bar where they will be able to create, update, and delete their own posts. Included in the posts will be how many users liked that post, how many users commented on that post, and if the user were to click on the comments tab they can view old comments and add a comment for themselves.',
+      gitHub: 'https://github.com/DXHASE/Collective-Social-App',
+      heroku: 'https://social-collective-app.herokuapp.com/'
     },
     {
       name: 'Run Buddy',
-      languages: ['java', 'test', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      gitHub: 'https://github.com/chazgraham/Game-Seeker',
-      heroku: 'https://game-seeker.herokuapp.com/'
+      languages: ['HTML, ', 'CSS'],
+      description: 'A website that offers fitness training services.',
+      gitHub: 'https://github.com/chazgraham/Run-Buddy',
+      heroku: 'https://chazgraham.github.io/Run-Buddy/'
     },
     {
       name: 'JavaScript Test',
-      languages: ['java', 'test', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      gitHub: 'https://github.com/chazgraham/Game-Seeker',
-      heroku: 'https://game-seeker.herokuapp.com/'
+      languages: ['HTML, ', 'CSS, ', 'JavaScript'],
+      description: 'A quiz application that asks the user 10 questions realated to JavaScript, and allows user to save their score and veiw it via local storage.',
+      gitHub: 'https://github.com/chazgraham/Chazs-JavaScript-Knowledge-Test',
+      heroku: 'https://chazgraham.github.io/Chazs-JavaScript-Knowledge-Test/'
     },
     {
       name: 'Note Taker',
-      languages: ['java, ', 'test, ', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      gitHub: 'https://github.com/chazgraham/Game-Seeker',
-      heroku: 'https://game-seeker.herokuapp.com/'
+      languages: ['HTML, ', 'CSS, ', 'JavaScript, ', 'Express'],
+      description: 'This appication uses express to gather data via backend and link it with our front end page. The user has two input fields "title and text" once this fields are filled out the user clicks the save button. When a user clicks one of the saved tasks it is expanded for futher reading. The user can delete notes that are no longer needed as well.',
+      gitHub: 'https://github.com/chazgraham/Chazs-Note-Taker',
+      heroku: 'https://chazs-note-taker.herokuapp.com/'
     },
     {
       name: 'Random Password Generator',
-      languages: ['java', 'test', 'another'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      gitHub: 'https://github.com/chazgraham/Game-Seeker',
-      heroku: 'https://game-seeker.herokuapp.com/'
+      languages: ['HTML, ', 'CSS, ', 'JavaScript'],
+      description: 'A website that generates a random password based on user selected criteria.',
+      gitHub: 'https://github.com/chazgraham/Chazs-Random-Password-Generator',
+      heroku: 'https://chazgraham.github.io/Chazs-Random-Password-Generator/'
     },
   ]);
 
@@ -67,9 +67,6 @@ function Portfolio() {
     const projectDetails = image
     setprojectDetail(projectDetails)
     handleShow()
-
-    console.log(image.name)
-    console.log(image.description)
   }
 
   return (
@@ -96,7 +93,7 @@ function Portfolio() {
         </Modal.Header>
         <Modal.Body>{projectDetails.description}</Modal.Body>
         <Modal.Header>
-          <Modal.Title>Languages</Modal.Title>
+          <Modal.Title>Technologies Used</Modal.Title>
         </Modal.Header>
         <Modal.Body>{projectDetails.languages}</Modal.Body>
         <Modal.Footer>
