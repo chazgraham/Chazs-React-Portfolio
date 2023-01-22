@@ -4,10 +4,10 @@ import { Container } from 'react-bootstrap';
 function ContactForm() {
 
   return (
-    <Container className='flex-row'>
+    <Container className='contact'>
       <aside>
         <i class="fa fa-solid fa-envelope fa-5x"></i>
-        <h4>Address and Phone</h4>
+        <h5>Address and Phone</h5>
         <p>
           Chaz Graham
           <br></br> 

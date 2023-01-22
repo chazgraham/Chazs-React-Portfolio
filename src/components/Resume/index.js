@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import resumeImg from '../../assets/profileImg/resume-img.jpg';
 
 function Resume() {
 
@@ -13,44 +14,7 @@ function Resume() {
         </a>
       </div>
       <div>
-        <h3>Front-end Proficiencies</h3>
-        <ul>
-          <li className='resume-li'>
-            <p>HTML</p>
-          </li>
-          <li className='resume-li'>
-            <p>CSS</p>
-          </li>
-          <li className='resume-li'>
-            <p>JavaScript</p>
-          </li>
-          <li className='resume-li'>
-            <p>React</p>
-          </li>
-          <li className='resume-li'>
-            <p>Bootstrap</p>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Back-end Proficiencies</h3>
-        <ul>
-          <li className='resume-li'>
-            <p>APIs</p>
-          </li>
-          <li className='resume-li'>
-            <p>Node</p>
-          </li>
-          <li className='resume-li'>
-            <p>Express</p>
-          </li>
-          <li className='resume-li'>
-            <p>MySQL, Sequelize</p>
-          </li>
-          <li className='resume-li'>
-            <p>MongoDB</p>
-          </li>
-        </ul>
+        <img className='resume' src={resumeImg} alt='resume'/>
       </div>
     </Container>
   );

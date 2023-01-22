@@ -26,12 +26,15 @@ body {
   padding-bottom: 10rem;
 }
 
+a {
+  margin: 5px;
+}
 
 .navbar-con {
   display: flex;
   background-image: url(../src/assets/headerImg/heroImg.jpg);
   font-size: 1.5rem;
-  height: 5rem;
+  height: 6rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -51,6 +54,14 @@ h3 {
 }
 
 h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  background-image: url(../src/assets/headerImg/heroImg.jpg);
+  border-radius: 16%;
+}
+
+h5 {
   font-size: 1.5rem;
   text-align: center;
   padding: 10px;
@@ -128,7 +139,14 @@ textarea {
   margin: 50px 20px 0px 50px;
 }
 
-aside {
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+aside {margin-top: 50px;
   border: 3px solid black;
   justify-content: center;
   text-align: center;
@@ -258,4 +276,9 @@ footer li {
   padding: 0 20px 10px 0;
 }
 
+@media only screen and (max-width: 995px) {
+  .resume {
+    width: 100%;
+  }
+}
 
