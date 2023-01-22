@@ -19,7 +19,7 @@ function App() {
         <Nav />
         <Routes>
           <Route
-            path="/"
+            path="/Chazs-React-Portfolio"
             element={<About />}
           />
           <Route 
