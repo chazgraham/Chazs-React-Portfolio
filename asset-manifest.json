@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/chazs-react-portfolio/static/css/main.3e918a48.css",
-    "main.js": "/chazs-react-portfolio/static/js/main.d4acf936.js",
-    "static/js/787.b3f45983.chunk.js": "/chazs-react-portfolio/static/js/787.b3f45983.chunk.js",
-    "static/media/profileImg.jpg": "/chazs-react-portfolio/static/media/profileImg.2455f05ea76d3278d3eb.jpg",
-    "static/media/1.jpg": "/chazs-react-portfolio/static/media/1.e2b3063a11ea474e8684.jpg",
-    "static/media/0.jpg": "/chazs-react-portfolio/static/media/0.303e6edd9bd336010925.jpg",
-    "static/media/3.jpg": "/chazs-react-portfolio/static/media/3.2e240bf9bcf45e179d9e.jpg",
-    "static/media/2.jpg": "/chazs-react-portfolio/static/media/2.6a51adec4dba320ce30f.jpg",
-    "static/media/heroImg.jpg": "/chazs-react-portfolio/static/media/heroImg.802bbb74806768f66872.jpg",
-    "static/media/4.jpg": "/chazs-react-portfolio/static/media/4.6efa6f496888ca613a59.jpg",
-    "static/media/resume-img.jpg": "/chazs-react-portfolio/static/media/resume-img.099cea3eb702576bc6ba.jpg",
-    "static/media/5.jpg": "/chazs-react-portfolio/static/media/5.6a091038ffbfe7766f9c.jpg",
-    "static/media/6.jpg": "/chazs-react-portfolio/static/media/6.80aba9a70f6c469d9527.jpg",
-    "index.html": "/chazs-react-portfolio/index.html",
-    "main.3e918a48.css.map": "/chazs-react-portfolio/static/css/main.3e918a48.css.map",
-    "main.d4acf936.js.map": "/chazs-react-portfolio/static/js/main.d4acf936.js.map",
-    "787.b3f45983.chunk.js.map": "/chazs-react-portfolio/static/js/787.b3f45983.chunk.js.map"
+    "main.css": "/Chazs-React-Portfolio/static/css/main.61749462.css",
+    "main.js": "/Chazs-React-Portfolio/static/js/main.6f3bcbc6.js",
+    "static/js/787.b3f45983.chunk.js": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js",
+    "static/media/profileImg.jpg": "/Chazs-React-Portfolio/static/media/profileImg.2455f05ea76d3278d3eb.jpg",
+    "static/media/1.jpg": "/Chazs-React-Portfolio/static/media/1.e2b3063a11ea474e8684.jpg",
+    "static/media/0.jpg": "/Chazs-React-Portfolio/static/media/0.303e6edd9bd336010925.jpg",
+    "static/media/3.jpg": "/Chazs-React-Portfolio/static/media/3.2e240bf9bcf45e179d9e.jpg",
+    "static/media/2.jpg": "/Chazs-React-Portfolio/static/media/2.6a51adec4dba320ce30f.jpg",
+    "static/media/heroImg.jpg": "/Chazs-React-Portfolio/static/media/heroImg.802bbb74806768f66872.jpg",
+    "static/media/4.jpg": "/Chazs-React-Portfolio/static/media/4.6efa6f496888ca613a59.jpg",
+    "static/media/resume-img.jpg": "/Chazs-React-Portfolio/static/media/resume-img.099cea3eb702576bc6ba.jpg",
+    "static/media/5.jpg": "/Chazs-React-Portfolio/static/media/5.6a091038ffbfe7766f9c.jpg",
+    "static/media/6.jpg": "/Chazs-React-Portfolio/static/media/6.80aba9a70f6c469d9527.jpg",
+    "index.html": "/Chazs-React-Portfolio/index.html",
+    "main.61749462.css.map": "/Chazs-React-Portfolio/static/css/main.61749462.css.map",
+    "main.6f3bcbc6.js.map": "/Chazs-React-Portfolio/static/js/main.6f3bcbc6.js.map",
+    "787.b3f45983.chunk.js.map": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e918a48.css",
-    "static/js/main.d4acf936.js"
+    "static/css/main.61749462.css",
+    "static/js/main.6f3bcbc6.js"
   ]
 }
