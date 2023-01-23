@@ -8,7 +8,7 @@ function AppNavbar() {
     <>
       <div className='navbar-con'>
         <Nav className="justify-content-center">
-          <Nav.Link as={Link} to='/Chazs-React-Portfolio'>
+          <Nav.Link as={Link} to='/chazs-react-portfolio'>
             About Me
           </Nav.Link>
           <Nav.Link as={Link} to='portfolio'>
