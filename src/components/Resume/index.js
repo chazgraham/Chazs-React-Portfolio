@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import resumeImg from '../../assets/profileImg/resume-img.jpg';
+import resumeImg2 from '../../assets/profileImg/resume-img2.jpg';
 
 function Resume() {
 
@@ -15,6 +16,7 @@ function Resume() {
       </div>
       <div>
         <img className='resume' src={resumeImg} alt='resume'/>
+        <img className='resume' src={resumeImg2} alt='resume'/>
       </div>
     </Container>
   );
