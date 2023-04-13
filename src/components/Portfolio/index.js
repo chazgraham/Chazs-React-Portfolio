@@ -13,6 +13,13 @@ function Portfolio() {
       heroku: 'https://game-seeker.herokuapp.com/'
     },
     {
+      name: 'Foodies',
+      languages: ['React, ', 'JavaScript, ', 'Bootstrap' ],
+      description: 'An application that allows the user to search for food recipes using the third party spoonacular API. The application will have a short summary as well as steps to complete the recipe.',
+      gitHub: 'https://github.com/chazgraham/Foodies',
+      heroku: 'http://chazgraham.github.io/Foodies'
+    },
+    {
       name: 'Music Playlist',
       languages: ['HTML, ', 'JavaScript, ', 'Bulma CSS'],
       description: 'An application that allows the user to search for songs by their favorite artists.',
