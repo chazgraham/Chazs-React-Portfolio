@@ -79,6 +79,7 @@ a {
   color: var(--lavender-blue);
   text-decoration: none;
   font-weight: bold;
+  padding: 10px;
 }
 
 a:hover {
@@ -279,6 +280,10 @@ footer {
 footer li {
   padding: 10px 40px 0 0;
   color: aliceblue;
+}
+
+footer li:hover {
+  color: gray;
 }
 
 @media only screen and (max-width: 995px) {
