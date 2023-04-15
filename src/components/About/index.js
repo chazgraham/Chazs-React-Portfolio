@@ -1,15 +1,10 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import profileImg from '../../assets/profileImg/profileImg.jpg'
 
 function About() {
 
   return (
-    <Container >
-      <div className='profile-info'>
-      <h2 id="about">I am Chaz Graham</h2>
-        <img className='profile-img' src={profileImg} alt="chaz Graham" />
-      </div>
+    <Container>
       <div className="about-text">
       <h3>About Me</h3>
         <p>

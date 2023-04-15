@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import './App.css';
 import './index.css';
 
+import Home from './components/Home/Home';
 import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio'
@@ -20,6 +21,10 @@ function App() {
         <Routes>
           <Route
             path="/Chazs-React-Portfolio"
+            element={<Home />}
+          />
+          <Route
+            path="/About"
             element={<About />}
           />
           <Route 

@@ -95,7 +95,7 @@ function Portfolio() {
         ))}
       </Container>
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header>
+        <Modal.Header variant="light">
           <Modal.Title>{projectDetails.name}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{projectDetails.description}</Modal.Body>

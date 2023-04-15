@@ -7,7 +7,7 @@ import reume from '../../assets/resume/resume.pdf';
 function Resume() {
 
   return (
-    <Container className='resume'>
+    <Container className='resume-text'>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
       <div>
       <h2>Resume</h2>
