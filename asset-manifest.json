@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Chazs-React-Portfolio/static/css/main.bb55cf8c.css",
+    "main.css": "/Chazs-React-Portfolio/static/css/main.389da817.css",
     "main.js": "/Chazs-React-Portfolio/static/js/main.d0e850c4.js",
     "static/js/787.b3f45983.chunk.js": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js",
     "static/media/profileImg.jpg": "/Chazs-React-Portfolio/static/media/profileImg.2455f05ea76d3278d3eb.jpg",
@@ -16,12 +16,12 @@
     "static/media/7.jpg": "/Chazs-React-Portfolio/static/media/7.80aba9a70f6c469d9527.jpg",
     "static/media/resume.pdf": "/Chazs-React-Portfolio/static/media/resume.52a5be2154a085423064.pdf",
     "index.html": "/Chazs-React-Portfolio/index.html",
-    "main.bb55cf8c.css.map": "/Chazs-React-Portfolio/static/css/main.bb55cf8c.css.map",
+    "main.389da817.css.map": "/Chazs-React-Portfolio/static/css/main.389da817.css.map",
     "main.d0e850c4.js.map": "/Chazs-React-Portfolio/static/js/main.d0e850c4.js.map",
     "787.b3f45983.chunk.js.map": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb55cf8c.css",
+    "static/css/main.389da817.css",
     "static/js/main.d0e850c4.js"
   ]
 }
