@@ -1,22 +1,18 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
-import profileImg from '../../assets/profileImg/profileImg.jpg'
+import background_img from '../../assets/images/background-img.jpg'
 
 function Home() {
     return (
         <>
-            <Container className="flex-box">
-                <div className="home-content">
-                    <h2>Full-Stack Web Developer</h2>
-                    <p className="home-text">Hi I'm Chaz Graham. A passionate Full-stack web developer based out of San Antonio, TX</p>
-                    <p className="home-skills">Technical Skills: JavaScript, React, MongoDb, HTML, Express, GraphQl, Bootstrap.</p>
-                    <p className="home-skills">Soft Skills: Communication, Teamwork, Problem-solving, Flexibility, Adaptability.</p>
-                </div>
-                <div className='profile-info'>
-                    <img className='profile-img' src={profileImg} alt="chaz Graham" />
-                </div>
-            </Container>
+            <section className="img_container">
+                <img className="background" src={background_img} alt="background" />
+                    <div className="centered">
+                        <h1>I am Chaz Graham</h1>
+                        <h4>A passionte Full-stack web developer</h4>
+                        <button>Resume</button>
+                    </div>
+            </section>
         </>
     )
 }

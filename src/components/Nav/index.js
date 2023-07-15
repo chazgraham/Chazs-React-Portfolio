@@ -8,17 +8,11 @@ function AppNavbar() {
     <>
       <Navbar variant="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand as={Link} to='/Chazs-React-Portfolio'>
-            <h1>Chaz Graham</h1>
-          </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ml-auto'>
-              <Nav.Link as={Link} to='/About'>
-                About Me
-              </Nav.Link>
               <Nav.Link as={Link} to='portfolio'>
-                Portfolio
+                Home
               </Nav.Link>
               <Nav.Link as={Link} to='contact'>
                 Contact
