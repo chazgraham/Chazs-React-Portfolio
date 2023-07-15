@@ -6,7 +6,6 @@ function Home() {
     return (
         <>
             <section className="img_container">
-                <img className="background" src={background_img} alt="background" />
                     <div className="centered">
                         <h1>I am Chaz Graham</h1>
                         <h4>A passionte Full-stack web developer</h4>
