@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 import chaz_pic from "../../assets/images/D92A2039.jpeg"
 
@@ -41,7 +42,7 @@ function Home() {
                 <div className="centered">
                     <h1>I am Chaz Graham</h1>
                     <h2>A passionte Full-stack web developer</h2>
-                    <button className="resume_btn">Resume</button>
+                    <Link to='/resume'><button className="resume_btn">Resume</button></Link>
                 </div>
             </section>
             <section className="about">
@@ -74,7 +75,7 @@ function Home() {
                 <div className="get_in_touch">
                     <h2 className="get_in_touch_h2">Get in Touch</h2>
                     <p className="get_in_touch_p">Have any questions? I am always open to talk about my skills, new projects, creative opportunities and how I can help you.</p>
-                    <button className="get_in_touch_btn">Contact</button>
+                    <Link to='/contact'><button className="get_in_touch_btn">Contact</button></Link>
                 </div>
             </section>
         </>
