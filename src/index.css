@@ -78,8 +78,7 @@ a.nav-link {
 
 .about {
   display: flex;
-  margin-top: 90px;
-  margin-bottom: 100px;
+  margin: 90px 50px 100px 50px;
   justify-content: space-around;
 }
 
