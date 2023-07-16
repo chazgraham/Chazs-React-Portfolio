@@ -72,9 +72,9 @@ function Home() {
             </section>
             <section>
                 <div className="get_in_touch">
-                    <h2 className="contact_h2">Get in Touch</h2>
-                    <p className="contact_p">Have any questions? I am always open to talk about my skills, new projects, creative opportunities and how I can help you.</p>
-                    <button className="contact_btn">Contact</button>
+                    <h2 className="get_in_touch_h2">Get in Touch</h2>
+                    <p className="get_in_touch_p">Have any questions? I am always open to talk about my skills, new projects, creative opportunities and how I can help you.</p>
+                    <button className="get_in_touch_btn">Contact</button>
                 </div>
             </section>
         </>
