@@ -21,6 +21,10 @@ function Home() {
                     <img className="self_pic" src={chaz_pic}  alt="pic of chaz"/>
                 </div>
             </section>
+            <section>
+                <h2 className="featured">Featured Applications</h2>
+                <div className="divider"></div>
+            </section>
         </>
     )
 }
