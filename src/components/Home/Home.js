@@ -59,11 +59,13 @@ function Home() {
                 <div className="collum">
                     {photos.map((image, i) => (
                         <div className='project_card'>
-                                <img className="img-thumbnail" src={require(`../../assets/projectImg/${i}.jpg`)} alt={image.name} key={image.name}></img>
-                                <h4>{image.name}</h4>
-                                <p className="project_text">{image.description}</p>
-                                <h5>Technologies Used</h5>
-                                <p className="tech_text">{image.languages}</p>
+                            <a href={image.heroku} target="_blank" rel="noreferrer">
+                            <img className="img-thumbnail" src={require(`../../assets/projectImg/${i}.jpg`)} alt={image.name} key={image.name}></img>
+                            </a>
+                            <h4>{image.name}</h4>
+                            <p className="project_text">{image.description}</p>
+                            <h5>Technologies Used</h5>
+                            <p className="tech_text">{image.languages}</p>
                         </div>
                     ))}
                 </div>

@@ -70,7 +70,7 @@ h5 {
 
 .about {
   display: flex;
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 100px;
   justify-content: space-around;
 }
@@ -117,4 +117,8 @@ p {
 .project_text, .tech_text {
   font-size: 17px;
   text-align: left;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.3);
 }
