@@ -70,6 +70,13 @@ function Home() {
                     ))}
                 </div>
             </section>
+            <section>
+                <div className="get_in_touch">
+                    <h2 className="contact_h2">Get in Touch</h2>
+                    <p className="contact_p">Have any questions? I am always open to talk about my skills, new projects, creative opportunities and how I can help you.</p>
+                    <button className="contact_btn">Contact</button>
+                </div>
+            </section>
         </>
     )
 }
