@@ -60,7 +60,7 @@ function Home() {
                     {photos.map((image, i) => (
                         <div className='project_card'>
                             <a href={image.heroku} target="_blank" rel="noreferrer">
-                            <img className="img-thumbnail" src={require(`../../assets/projectImg/${i}.jpg`)} alt={image.name} key={image.name}></img>
+                                <img className="img-thumbnail" src={require(`../../assets/projectImg/${i}.jpg`)} alt={image.name} key={image.name}></img>
                             </a>
                             <h4>{image.name}</h4>
                             <p className="project_text">{image.description}</p>
