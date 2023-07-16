@@ -38,6 +38,15 @@ h5 {
   text-align: center;
 }
 
+a {
+  color: #000;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 a.nav-link {
   font-size: large;
   font-weight: 600;
@@ -212,6 +221,7 @@ p {
 
 .email {
   font-size: 27px;
+  color: #007bff;
 }
 
 .contact_ul {
@@ -226,3 +236,34 @@ p {
   color: #000;
 }
 
+.icon:hover {
+  color: gray;
+}
+
+/* Footer CSS */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin: 80px 90px 30px 90px;
+}
+
+.footer_ul {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.footer_li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.footer_p {
+  font-weight: light;
+  font-size: 15px;
+  padding-left: 80px;
+}

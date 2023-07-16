@@ -1,19 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer () {
     return (
         <footer>
-            <ul className='flex-row'>
-                <li>
-                    <a href='https://github.com/chazgraham'><i class="fa fa-github fa-3x"></i></a>
+            <ul className='footer_ul'>
+                <li className='footer_li'>
+                    <Link to='/Chazs-React-Portfolio'>Home</Link>
                 </li>
-                <li>
-                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258'><i class="fa fa-linkedin-square fa-3x"></i></a>
+                <li className='footer_li'>
+                    <Link to='/resume'>Resume</Link>
                 </li>
-                <li>
-                    <a href='https://stackoverflow.com/users/19429367/chaz-graham'><i class="fa fa-stack-overflow fa-3x"></i></a>
+                <li className='footer_li'>
+                    <Link to='/contact'>Contact</Link>
                 </li>
             </ul>
+            <p className='footer_p'>©2022 Chaz Graham portfolio. All right reserved.</p>
         </footer>
     )
 }

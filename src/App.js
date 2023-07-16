@@ -40,8 +40,8 @@ function App() {
             element={<Resume />}
           />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }

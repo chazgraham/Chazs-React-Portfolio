@@ -22,13 +22,13 @@ function ContactForm() {
             <h5 className='contact_h5'>Follow Me:</h5>
             <ul className='contact_ul'>
                 <li className='contact_li'>
-                    <a href='https://github.com/chazgraham' target="_blank" rel="noreferrer"><i class="fa fa-github fa-2x" style={{color: "black"}}></i></a>
+                    <a href='https://github.com/chazgraham' target="_blank" rel="noreferrer"><i class="fa fa-github fa-2x"></i></a>
                 </li>
                 <li className='contact_li'>
-                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258' target="_blank" rel="noreferrer"><i class="fa fa-linkedin-square fa-2x" style={{color: "black"}}></i></a>
+                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258' target="_blank" rel="noreferrer"><i class="fa fa-linkedin-square fa-2x"></i></a>
                 </li>
                 <li className='contact_li'>
-                    <a href='https://stackoverflow.com/users/19429367/chaz-graham' target="_blank" rel="noreferrer"><i class="fa fa-stack-overflow fa-2x" style={{color: "black"}}></i></a>
+                    <a href='https://stackoverflow.com/users/19429367/chaz-graham' target="_blank" rel="noreferrer"><i class="fa fa-stack-overflow fa-2x"></i></a>
                 </li>
             </ul>
           </div>
