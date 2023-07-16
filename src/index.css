@@ -24,6 +24,11 @@ h2 {
   color: #101218;
 }
 
+h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 36px;
+}
+
 .img_container {
   min-height: 100vh;
   background: url(../src/assets/images/background-img.jpg);
@@ -53,4 +58,24 @@ h2 {
   padding-left: 40px;
   letter-spacing: 3px;
   margin-top: 15px;
+}
+
+.about {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+}
+
+.text {
+  max-width: 30%;
+}
+
+.self_pic {
+  width: 400px;
+  height: 500px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
 }
