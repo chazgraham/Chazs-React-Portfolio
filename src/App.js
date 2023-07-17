@@ -9,12 +9,14 @@ import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import ScrollToTop from './utils/helpers';
 
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route
