@@ -304,8 +304,6 @@ footer {
 
   .centered {
     top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .get_in_touch_p {
@@ -313,6 +311,26 @@ footer {
     margin: 0px 0px 20px 0px;
     width: 100%;
   }
+
+  /* Contact page CSS */
+  .contact_img {
+    min-height: 40vh;
+    min-width: 90vw;
+  }
+
+  .contact_h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .contact_title {
+    top: 20%;
+  }
+
+   .map_container {
+    width: 100%;
+    height: 250px;
+   }
 }
 
 @media only screen and (max-width: 380px) {
