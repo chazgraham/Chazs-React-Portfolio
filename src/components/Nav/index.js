@@ -6,7 +6,7 @@ function AppNavbar() {
 
   return (
     <>
-      <Navbar variant="light" expand="lg">
+      <Navbar className='navbar-expand' variant="light" expand="lg">
         <Container fluid>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
