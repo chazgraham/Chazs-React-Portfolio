@@ -28,6 +28,7 @@ h3 {
   font-family: 'Jost', sans-serif;
   font-size: 36px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 h4 {
@@ -73,7 +74,7 @@ a.nav-link {
   transform: translate(-50%, -50%);
 }
 
-.resume_btn {
+.resume_btn1 {
   font-weight: normal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #FFFFFF;
@@ -178,17 +179,25 @@ p {
   padding: 15px 50px;
 }
 
-/* Contact page CSS */
+/* Contact/Resume page CSS */
 
-.contact_img {
+.contact_img, .resume_img {
   min-height: 600px;
-  background-image: url(../src/assets/images/envelopes.jpg);
   background-size: cover;
   margin-top: -79px;
   margin-bottom: 100px;
 }
 
-.contact_title {
+.contact_img {
+  background-image: url(../src/assets/images/envelopes.jpg);
+}
+
+.resume_img {
+  background-image: url(../src/assets/images/resume_background.jpg);
+  background-size: none;
+}
+
+.contact_title, .resume_title {
   min-width: 100%;
   justify-content: center;
   text-align: center;
@@ -198,7 +207,7 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.contact_h1 {
+.contact_h1, .resume_h1 {
   font-family: 'Jost', Sans-serif;
   color: #000;
   font-weight: 500;
@@ -241,6 +250,35 @@ p {
   color: gray;
 }
 
+.resume_link {
+  color: #007bff;
+}
+
+.resume_p_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.resume_p {
+  font-size: 15px;
+  color: rgb(90, 89, 89);
+  font-weight: 600;
+}
+
+li {
+  color: rgb(90, 89, 89);
+  font-weight: 600;
+}
+
+.resume_btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  background-color: #007bff;
+  border-radius: 15px 15px 15px 15px;
+  color: #FFFFFF;
+  padding: 10px 25px;
+}
+
 /* Footer CSS */
 
 footer {
@@ -276,6 +314,7 @@ footer {
   }
   .self_container {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .text {
@@ -312,8 +351,8 @@ footer {
     width: 100%;
   }
 
-  /* Contact page CSS */
-  .contact_img {
+  /* Contact/resume page CSS */
+  .contact_img, .resume_img {
     min-height: 40vh;
     min-width: 90vw;
   }
@@ -323,14 +362,29 @@ footer {
     margin-top: 40px;
   }
 
-  .contact_title {
+  .contact_title, .resume_title {
     top: 20%;
   }
 
    .map_container {
     width: 100%;
     height: 250px;
-   }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  
+  h3 {
+    font-size:22px;
+  }
+  
+  .resume_p_title {
+    font-size: 13px;
+  }
+
+  .resume_p, li {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -352,8 +406,10 @@ footer {
   }
 
   footer {
-    margin: 20px 0px 0px;
+    margin: 50px 0px 0px;
     text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid black;
   }
 
   .footer_p {

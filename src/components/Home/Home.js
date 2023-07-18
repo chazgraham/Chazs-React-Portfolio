@@ -42,7 +42,7 @@ function Home() {
                 <div className="centered">
                     <h1>I am Chaz Graham</h1>
                     <h2>A passionte Full-stack web developer</h2>
-                    <Link to='/resume'><button className="resume_btn">Resume</button></Link>
+                    <Link to='/resume'><button className="resume_btn1">Resume</button></Link>
                 </div>
             </section>
             <section className="about">
