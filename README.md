@@ -3,7 +3,7 @@
 ## Descripton
 A single-page application that uses conditional rendering via react `useState` to render the pages information. 
 http://chazgraham.github.io/Chazs-React-Portfolio
-![](./src/assets/profileImg/port-app.jpg)
+![](./src/assets/images/port-img.jpg)
 
 ## Table of Contents
   * [Installation Instructions](#installation-instructions)
