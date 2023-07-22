@@ -7,11 +7,11 @@ function Home() {
 
     const [photos] = useState([
         {
-            name: 'Express-shop',
-            languages: ['React, ', 'JavaScript, ', 'Apollo, ', 'MongoBb, ', 'GraphQl, ', 'Express, ', 'Bcrypt, ', 'Stripe'],
-            description: 'A ecommerce application that users can add/remove items to their cart. Stripe checkout session will be utilized, once completed the user will be redirected to the homepage.',
-            gitHub: 'https://github.com/chazgraham/Foodies',
-            heroku: 'https://express-shop-a80244ad7590.herokuapp.com/'
+            name: 'Arcadium',
+            languages: ['React, ', 'JavaScript, ', 'CSS'],
+            description: 'An application that allows the user to choose a game that is posted on the homepage and allow them to play the game and view their score. All logic coded in JavaScript.',
+            gitHub: 'https://github.com/chazgraham/Arcadium',
+            heroku: 'https://chazgraham.github.io/Arcadium/'
         },
         {
             name: 'Game Seeker',
@@ -28,11 +28,11 @@ function Home() {
             heroku: 'https://social-collective-app.herokuapp.com/'
         },
         {
-            name: 'Music Playlist',
-            languages: ['HTML, ', 'JavaScript, ', 'Bulma CSS'],
-            description: 'An application that allows the user to search for songs by their favorite artists. The top five song by the user searched artist will each display as a link to the song for the user to listen to.',
-            gitHub: 'https://github.com/chazgraham/Music--Playlist',
-            heroku: 'https://chazgraham.github.io/Music--Playlist/'
+            name: 'Express-shop',
+            languages: ['React, ', 'JavaScript, ', 'Apollo, ', 'MongoBb, ', 'GraphQl, ', 'Express, ', 'Bcrypt, ', 'Stripe'],
+            description: 'A ecommerce application that users can add/remove items to their cart. Stripe checkout session will be utilized, once completed the user will be redirected to the homepage.',
+            gitHub: 'https://github.com/chazgraham/Foodies',
+            heroku: 'https://express-shop-a80244ad7590.herokuapp.com/'
         },
     ]);
 
