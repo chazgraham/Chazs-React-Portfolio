@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Chazs-React-Portfolio/static/css/main.f575519c.css",
-    "main.js": "/Chazs-React-Portfolio/static/js/main.d75786d6.js",
+    "main.js": "/Chazs-React-Portfolio/static/js/main.00529fe0.js",
     "static/js/787.b3f45983.chunk.js": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js",
     "static/media/D92A2039.jpeg": "/Chazs-React-Portfolio/static/media/D92A2039.b44443cc72e89363f11f.jpeg",
+    "static/media/1.jpg": "/Chazs-React-Portfolio/static/media/1.201d8feb2e3b8dd7e9e1.jpg",
     "static/media/2.jpg": "/Chazs-React-Portfolio/static/media/2.e2b3063a11ea474e8684.jpg",
     "static/media/0.jpg": "/Chazs-React-Portfolio/static/media/0.f491914d68a3a8a9b399.jpg",
-    "static/media/1.jpg": "/Chazs-React-Portfolio/static/media/1.303e6edd9bd336010925.jpg",
     "static/media/3.jpg": "/Chazs-React-Portfolio/static/media/3.9c01a08d204469efef92.jpg",
     "static/media/envelopes.jpg": "/Chazs-React-Portfolio/static/media/envelopes.14ac467f540779d84eb1.jpg",
     "static/media/resume.pdf": "/Chazs-React-Portfolio/static/media/resume.282344a3c7ad1589575b.pdf",
     "static/media/background-img.jpg": "/Chazs-React-Portfolio/static/media/background-img.2989bc5ca72a1f7c6dbd.jpg",
     "index.html": "/Chazs-React-Portfolio/index.html",
     "main.f575519c.css.map": "/Chazs-React-Portfolio/static/css/main.f575519c.css.map",
-    "main.d75786d6.js.map": "/Chazs-React-Portfolio/static/js/main.d75786d6.js.map",
+    "main.00529fe0.js.map": "/Chazs-React-Portfolio/static/js/main.00529fe0.js.map",
     "787.b3f45983.chunk.js.map": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f575519c.css",
-    "static/js/main.d75786d6.js"
+    "static/js/main.00529fe0.js"
   ]
 }
