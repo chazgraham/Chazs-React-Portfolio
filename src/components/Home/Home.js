@@ -55,13 +55,14 @@ function Home() {
                 </div>
             </section>
             <section>
-                <h2 className="featured">Featured Applications</h2>
+                    <h2 className="featured">Featured Applications</h2>
+                    <p className="videoDissclamer">*Click any where on the page to enable video demo*</p>
                 <div className="divider"></div>
                 <div className="collum">
                     {photos.map((image, i) => (
                         <div className='project_card'>
                             <a href={image.heroku} target="_blank" rel="noreferrer">
-                                <video className="img-thumbnail" src={require(`../../assets/videos/${i}.webm`)} width="600" height="300" on onMouseEnter={event => event.target.play()} onMouseOut={event => event.target.pause()} />
+                                <video className="img-thumbnail" src={require(`../../assets/videos/${i}.webm`)} width="600" height="300" on onMouseEnter={event => event.target.play()} onMouseOut={event => event.target.pause()} loop />
                             </a>
                             <h4>{image.name}</h4>
                             <p className="project_text">{image.description}</p>
