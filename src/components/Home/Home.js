@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
 import chaz_pic from "../../assets/images/D92A2039.jpeg"
-import gameSekkerVid from "../../assets/videos/Game Seeker.webm"
 
 function Home() {
 
@@ -62,7 +61,7 @@ function Home() {
                     {photos.map((image, i) => (
                         <div className='project_card'>
                             <a href={image.heroku} target="_blank" rel="noreferrer">
-                                <img className="img-thumbnail" src={require(`../../assets/projectImg/${i}.jpg`)} alt={image.name} key={image.name}></img>
+                                <video className="img-thumbnail" src={require(`../../assets/videos/${i}.webm`)} width="600" height="300" on onMouseEnter={event => event.target.play()} onMouseOut={event => event.target.pause()} />
                             </a>
                             <h4>{image.name}</h4>
                             <p className="project_text">{image.description}</p>
@@ -71,8 +70,6 @@ function Home() {
                         </div>
                     ))}
                 </div>
-
-                <video src={gameSekkerVid} width="600" height="300" on onMouseEnter={event => event.target.play()} onMouseOut={event => event.target.pause()} />
             </section>
             <section>
                 <div className="get_in_touch">
