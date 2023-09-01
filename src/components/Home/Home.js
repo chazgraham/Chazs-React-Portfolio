@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
 import chaz_pic from "../../assets/images/D92A2039.jpeg"
+import gameSekkerVid from "../../assets/videos/Game Seeker.webm"
 
 function Home() {
 
@@ -70,6 +71,8 @@ function Home() {
                         </div>
                     ))}
                 </div>
+
+                <video src={gameSekkerVid} width="600" height="300" on onMouseEnter={event => event.target.play()} onMouseOut={event => event.target.pause()} />
             </section>
             <section>
                 <div className="get_in_touch">
