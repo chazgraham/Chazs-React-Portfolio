@@ -54,11 +54,11 @@ function Resume() {
             </ul>
           </div>
           <div>
-            <p className='resume_p_title'>The Collective: <a href='https://github.com/DXHASE/Collective-Social-App' className='resume_link'>GitHub Repository</a> | <a href='https://social-collective-app.herokuapp.com/' className='resume_link'>Deployed Application</a></p>
+            <p className='resume_p_title'>Foodies: <a href='http://chazgraham.github.io/Foodies' className='resume_link'>GitHub Repository</a> | <a href='https://github.com/chazgraham/Foodies' className='resume_link'>Deployed Application</a></p>
             <ul>
-              <li>A social media platform that allows users to log in or sign up. Once the user is logged in they will be able to view past posts by other users and visit their own profile via the nav bar where they will be able to create, update, and delete their own posts.</li>
-              <li>front end and backend communication via API calls as well as assist with styling</li>
-              <li>Technologies Used: JavaScript, Handlebars, Express, Sequelize, MySQL, Node.js</li>
+              <li>This application allows the user to search for their desired dish they would like to make and will give a short summary and provide the user will simple steps to recreate the dish.</li>
+              <li>Solely contributed to design, styling, and API integration with efficient time management</li>
+              <li>Technologies Used: JavaScript, React.js, Bootstrap</li>
             </ul>
           </div>
         </section>
