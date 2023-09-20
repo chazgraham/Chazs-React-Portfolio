@@ -22,7 +22,7 @@ function Home() {
         },
         {
             name: 'Foodies',
-            languages: ['JavaScript, ', 'React.js', 'Bootstrap'],
+            languages: ['JavaScript, ', 'React.js, ', 'Bootstrap'],
             description: 'This application allows the user to search for their desired dish they would like to make and will give a short summary and provide the user will simple steps to recreate the dish.',
             gitHub: 'https://github.com/chazgraham/Foodies',
             heroku: 'http://chazgraham.github.io/Foodies'
