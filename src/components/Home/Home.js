@@ -31,8 +31,29 @@ function Home() {
             name: 'Express-shop',
             languages: ['React, ', 'JavaScript, ', 'Apollo, ', 'MongoBb, ', 'GraphQl, ', 'Express, ', 'Bcrypt, ', 'Stripe'],
             description: 'A ecommerce application that users can add/remove items to their cart. Stripe checkout session will be utilized, once completed the user will be redirected to the homepage.',
-            gitHub: 'https://github.com/chazgraham/Foodies',
+            gitHub: 'https://github.com/chazgraham/Express-shop',
             heroku: 'https://express-shop-a80244ad7590.herokuapp.com/'
+        },
+        {
+            name: 'Music Playlist',
+            languages: ['JavaScript, ', 'HTML, ', 'CSS'],
+            description: 'An application that allows the user to search for songs by their favorite artists. The top 15 songs will then populate with thumbnails and an option to add to your playlist',
+            gitHub: 'https://github.com/chazgraham/Music--Playlist',
+            heroku: 'https://chazgraham.github.io/Music--Playlist/'
+        },
+        {
+            name: 'Javascript Test',
+            languages: ['JavaScript, ', 'HTML, ', 'CSS'],
+            description: 'Built a testing application using javascript, testing the users knowledge with the javascript language. Rates users knowledge on a 1-10 scale in basic javascript knowledge.',
+            gitHub: 'https://github.com/chazgraham/Chazs-JavaScript-Knowledge-Test',
+            heroku: 'https://chazgraham.github.io/Chazs-JavaScript-Knowledge-Test/'
+        },
+        {
+            name: 'Socal Collective',
+            languages: ['JavaScript, ', 'Handlebars, ', 'Express, ', 'Sequelize, ', 'MySQL, ', 'Node.js'],
+            description: 'A social media platform that allows users to log in to an existing account or sign up. Once the user is logged in they will be able to create, update, and delete their own posts.',
+            gitHub: 'https://github.com/DXHASE/Collective-Social-App',
+            heroku: 'https://social-collective-app.herokuapp.com/'
         },
     ]);
 
