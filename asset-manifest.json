@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/Chazs-React-Portfolio/static/css/main.0687e984.css",
-    "main.js": "/Chazs-React-Portfolio/static/js/main.1febc898.js",
+    "main.js": "/Chazs-React-Portfolio/static/js/main.40b147a0.js",
     "static/js/787.b3f45983.chunk.js": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js",
     "static/media/1.webm": "/Chazs-React-Portfolio/static/media/1.6c686c54c1095a10d65d.webm",
     "static/media/3.webm": "/Chazs-React-Portfolio/static/media/3.47071bd35e85874d7c89.webm",
+    "static/media/6.webm": "/Chazs-React-Portfolio/static/media/6.9b2c5e5d3e86929e2aa3.webm",
     "static/media/0.webm": "/Chazs-React-Portfolio/static/media/0.f87131cecd904af69981.webm",
+    "static/media/4.webm": "/Chazs-React-Portfolio/static/media/4.bb8215d9d367bdf900a1.webm",
     "static/media/2.webm": "/Chazs-React-Portfolio/static/media/2.6f42d2ac48eb462035c3.webm",
+    "static/media/5.webm": "/Chazs-React-Portfolio/static/media/5.7aea03ac07cba76374b2.webm",
     "static/media/D92A2039.jpeg": "/Chazs-React-Portfolio/static/media/D92A2039.b44443cc72e89363f11f.jpeg",
     "static/media/resume.pdf": "/Chazs-React-Portfolio/static/media/resume.58eaf440224d0fab374f.pdf",
     "static/media/envelopes.jpg": "/Chazs-React-Portfolio/static/media/envelopes.14ac467f540779d84eb1.jpg",
     "static/media/background-img.jpg": "/Chazs-React-Portfolio/static/media/background-img.2989bc5ca72a1f7c6dbd.jpg",
     "index.html": "/Chazs-React-Portfolio/index.html",
     "main.0687e984.css.map": "/Chazs-React-Portfolio/static/css/main.0687e984.css.map",
-    "main.1febc898.js.map": "/Chazs-React-Portfolio/static/js/main.1febc898.js.map",
+    "main.40b147a0.js.map": "/Chazs-React-Portfolio/static/js/main.40b147a0.js.map",
     "787.b3f45983.chunk.js.map": "/Chazs-React-Portfolio/static/js/787.b3f45983.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0687e984.css",
-    "static/js/main.1febc898.js"
+    "static/js/main.40b147a0.js"
   ]
 }
