@@ -106,8 +106,8 @@ a.nav-link {
 }
 
 p {
-  font-size: 21px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .featured {
@@ -263,12 +263,44 @@ p {
 .resume_p_title {
   font-size: 18px;
   font-weight: 600;
+  margin-left: 5px;
+}
+
+.resume_p_title2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.resume_part1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.left {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.resume_about {
+  font-size: 15px;
+  color: rgb(90, 89, 89);
+  font-weight: 600;
+}
+
+.project_title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
 }
 
 .resume_p {
   font-size: 15px;
   color: rgb(90, 89, 89);
   font-weight: 600;
+  text-align: left;
 }
 
 li {
