@@ -86,7 +86,7 @@ function Resume() {
             </div>
             <ul>
               <li> Programmed an ecommerce application, using object data modeling (mongoose) to query the database, allows users to add/remove items from their cart</li>
-              <li>Implemented stripe checkout, giving users secure checkout with a custom order recipient.</li>
+              <li>Implemented stripe checkout, giving users secure checkout with a custom order recipient Giving the user an easy to navigate UI design.</li>
             </ul>
           </div>
           <div>
