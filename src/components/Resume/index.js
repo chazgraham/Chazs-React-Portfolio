@@ -48,7 +48,7 @@ function Resume() {
               <p>2023</p>
             </div>
             <ul>
-              <li>Developed a gaming library using Javascript and React, letting users choose a game of their choice. This helps destress and allows users to recharge.</li>
+              <li>Developed a gaming library using Javascript and React, using user input to manipulate DOM elements. Showcasing my javascript knowledge as well as problem solving skills.</li>
               <li>Defined 3 games- candy smasher, tic-tac-toe, and rock paper scissors, which increased variety and gave users options depending on their play preference.</li>
             </ul>
           </div>
